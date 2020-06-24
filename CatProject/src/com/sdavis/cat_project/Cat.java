@@ -8,7 +8,7 @@ public class Cat {
 	private String name;
 	private String gender;
 	private int age;
-	boolean isAMouser; 
+	boolean isAMouser = true; 
 	double weight;
 	
 	
@@ -23,7 +23,7 @@ public class Cat {
 		this.name=name;
 		this.gender=gender;
 		this.age=age;
-		this.isAMouser=isAMouser;
+		this.isAMouser=isAMouser = true;
 		this.weight=weight;
 		
 		
