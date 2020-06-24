@@ -23,7 +23,7 @@ class PersianTest {
 				assertEquals("male", Garfield.getGender());
 				assertEquals(10, Garfield.getAge());
 				assertNotEquals(3, Garfield.getAge());
-				//assertEquals("Garfield", Garfield.getisAMouser());
+				
 	}
 
 }

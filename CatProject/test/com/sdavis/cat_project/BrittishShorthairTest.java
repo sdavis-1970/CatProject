@@ -25,7 +25,8 @@ class BrittishShorthairTest {
 			assertEquals("female", Katniss.getGender());
 			assertEquals(6, Katniss.getAge());
 			assertNotEquals(7, Katniss.getAge());
-			//assertEquals("Katniss", Kaniss.getisAMouser());
+			
+			
 			
 
 }
