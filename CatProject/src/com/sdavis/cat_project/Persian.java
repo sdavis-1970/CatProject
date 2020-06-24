@@ -1,6 +1,6 @@
 package com.sdavis.cat_project;
 
-public class Persian {
+public class Persian extends PersianTest {
 	
 	//Member variables	
 		private String name;

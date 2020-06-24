@@ -19,11 +19,11 @@ class BrittishShorthairTest {
 
 	@Test
 	// <method under test>_<GivenParameters>_<Result You Expect>()
-		void brittishShorthairTest_GivenThreeparameters_ShouldConstructbrittishShorthair() {
+		void brittishShorthairTest_GivenThreeparameters_ShouldConstructBrittishShorthair() {
 			assertTrue(Katniss instanceof Cat);
 			assertEquals("Katniss", Katniss.getName());
 			assertEquals("female", Katniss.getGender());
-			assertEquals(6, Katniss.getAge());
+			assertEquals(1, Katniss.getAge());
 			assertNotEquals(7, Katniss.getAge());
 			
 			

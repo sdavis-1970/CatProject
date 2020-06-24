@@ -1,6 +1,6 @@
 package com.sdavis.cat_project;
 
-public class Cat {
+public class Cat extends CatTest {
 	
 	
 
@@ -10,6 +10,7 @@ public class Cat {
 	private int age;
 	public boolean isAMouser = true; 
 	double weight;
+	
 	
 	
 	
@@ -75,8 +76,15 @@ public class Cat {
 
 	public void setAMouser(boolean isAMouser) {
 		this.isAMouser = isAMouser;
-	}
+	
+	
+	//for loop example - need to work on this
+		for (int i=0; i<3;i++) {
+			System.out.println("Meow!...");
+		}
 		
+	}
+	
 				
 	}
 

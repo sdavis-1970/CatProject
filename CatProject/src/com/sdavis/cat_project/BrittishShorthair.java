@@ -1,6 +1,9 @@
 package com.sdavis.cat_project;
 
-public class BrittishShorthair {
+public class BrittishShorthair extends BrittishShorthairTest {
+	
+		
+	
 	
 	//Member variables	
 	private String name;
@@ -66,11 +69,14 @@ public class BrittishShorthair {
 
 	public void setAMouser(boolean isAMouser) {
 	this.isAMouser = isAMouser;
-}
+
+
 	
+		
 			
 }
 
+}
 
 
 
