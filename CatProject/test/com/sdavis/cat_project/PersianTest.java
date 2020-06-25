@@ -1,29 +1,29 @@
 package com.sdavis.cat_project;
-
+//when we are creating a test class, just begin with class name for junit test
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 class PersianTest {
+	public static Persian katniss;
 	
-	private static Cat Garfield;
+	
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
-		Garfield = new Cat("Garfield", "male", 10, false, 10.2);
+		katniss= new Persian("Katniss", "female", 1, true, 1.62);
+		
 		
 	}
 
 	@Test
-	// <method under test>_<GivenParameters>_<Result You Expect>()
-			void PersianTest_GivenThreeparameters_ShouldConstructPersian() {
-				assertTrue(Garfield instanceof Cat);
-				assertEquals("Garfield", Garfield.getName());
-				assertEquals("male", Garfield.getGender());
-				assertEquals(10, Garfield.getAge());
-				assertNotEquals(3, Garfield.getAge());
-				
+	void test() {
+		assertTrue(katniss.isAMouser());
+		katniss.meow(2);
+		katniss.jump();
+		
+		
 	}
 
 }

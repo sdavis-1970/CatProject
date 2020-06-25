@@ -8,14 +8,8 @@ public class Cat extends CatTest {
 	private String name;
 	private String gender;
 	private int age;
-	public boolean isAMouser = true; 
+	private boolean isAMouser = true; 
 	double weight;
-	
-	
-	
-	
-	
-	
 	
 
 	
@@ -59,9 +53,7 @@ public class Cat extends CatTest {
 	
 	
 	}
-	public void meow() {
-		System.out.println(this.name+" Meow!...");
-	}
+	
 
 	
 			
@@ -76,15 +68,20 @@ public class Cat extends CatTest {
 
 	public void setAMouser(boolean isAMouser) {
 		this.isAMouser = isAMouser;
-	
-	
-	//for loop example - need to work on this
-		for (int i=0; i<3;i++) {
+	}
+	//for loop example 
+	public void meow(int numTimes) {
+		for (int i = 0; i < numTimes; i++) {
 			System.out.println("Meow!...");
 		}
 		
 	}
 	
-				
+	
+		
+		
 	}
+	
+				
+	
 
