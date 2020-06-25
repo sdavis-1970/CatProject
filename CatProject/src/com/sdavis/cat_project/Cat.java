@@ -49,13 +49,10 @@ public class Cat extends CatTest {
 	}
 	public void setGender(String gender) {
 		this.gender = gender;
-		
-	
 	
 	}
 	
 
-	
 			
 	public double getWeight()  {
 		return this.weight;
@@ -72,7 +69,7 @@ public class Cat extends CatTest {
 	//for loop example 
 	public void meow(int numTimes) {
 		for (int i = 0; i < numTimes; i++) {
-			System.out.println("Meow!...");
+			System.out.println(this.name + " Meow!...");
 		}
 		
 	}

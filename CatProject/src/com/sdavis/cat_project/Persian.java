@@ -8,11 +8,13 @@ public class Persian extends Cat {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void jump() {
+	public void jump(int numTimes) {
+		for (int i = 0; i < numTimes; i++) {
 		System.out.println("jump!");
 	}
 		
 	}
+}
 	
 	
 	

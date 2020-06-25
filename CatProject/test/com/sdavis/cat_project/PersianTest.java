@@ -21,7 +21,7 @@ class PersianTest {
 	void test() {
 		assertTrue(katniss.isAMouser());
 		katniss.meow(2);
-		katniss.jump();
+		katniss.jump(5);
 		
 		
 	}
