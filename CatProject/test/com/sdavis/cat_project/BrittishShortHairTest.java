@@ -29,6 +29,8 @@ class BrittishShortHairTest {
 		
 		
 		garfield.meow(5);
+		garfield.scratch(1);
+		
 		
 		
 	}
