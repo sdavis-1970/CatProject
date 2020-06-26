@@ -20,8 +20,11 @@ class PersianTest {
 	@Test
 	void test() {
 		assertTrue(katniss.isAMouser());
+		assertNotEquals(3, katniss.getAge());
 		katniss.meow(2);
 		katniss.jump(5);
+		
+		
 		
 		
 	}

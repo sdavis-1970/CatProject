@@ -10,8 +10,10 @@ public class Persian extends Cat {
 	
 	public void jump(int numTimes) {
 		for (int i = 0; i < numTimes; i++) {
-		System.out.println("jump!");
+		System.out.println("Jump!");
 	}
+		
+	
 		
 	}
 }

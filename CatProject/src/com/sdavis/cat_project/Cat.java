@@ -72,10 +72,9 @@ public class Cat extends CatTest {
 			System.out.println(this.name + " Meow!...");
 		}
 		
+	
 	}
 	
-	
-		
 		
 	}
 	
